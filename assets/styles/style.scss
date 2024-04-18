@@ -1,0 +1,13 @@
+@import "./base/index";
+@import "./components/index";
+@import "./vendors/index";
+
+/* 
+// REF: IF YOU WANT TO HAVE BS-ICONS IN YOUR BUNDLE, TRY FONT_SRC AND IMPORT BOOTSTRAP_ICON.SCSS
+ $bootstrap-icons-font-src: url("./../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff")format("woff"),url("./../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2")format("woff2");
+
+ @import "./../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+*/
+@import "/node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+
+

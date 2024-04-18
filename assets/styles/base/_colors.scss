@@ -1,0 +1,18 @@
+$primary: #f55e41;
+$secondary: #f5f5f5;
+$grey: #848483;
+$dark-gray: #3b3b3b;
+$accent: #0b2921;
+
+$body-color: $dark-gray;
+
+$custom-colors: (
+  "accent": $accent,
+);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+$theme-colors: map-merge($theme-colors, $custom-colors);

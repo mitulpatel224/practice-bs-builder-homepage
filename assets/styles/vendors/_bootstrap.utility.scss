@@ -1,0 +1,46 @@
+/* Border Radius for Top-Left side*/
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded-top-start": (
+      responsive: true,
+      property: border-top-left-radius,
+      class: rounded-top-start,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-sm),
+        2: var(--#{$prefix}border-radius),
+        3: var(--#{$prefix}border-radius-lg),
+        4: var(--#{$prefix}border-radius-xl),
+        5: var(--#{$prefix}border-radius-xxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill),
+      ),
+    ),
+  )
+);
+
+/* Border Radius for Bottom-Right side*/
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded-bottom-end": (
+      responsive: true,
+      property: border-bottom-right-radius,
+      class: rounded-bottom-end,
+      values: (
+        null: var(--#{$prefix}border-radius),
+        0: 0,
+        1: var(--#{$prefix}border-radius-sm),
+        2: var(--#{$prefix}border-radius),
+        3: var(--#{$prefix}border-radius-lg),
+        4: var(--#{$prefix}border-radius-xl),
+        5: var(--#{$prefix}border-radius-xxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill),
+      ),
+    ),
+  )
+);
+

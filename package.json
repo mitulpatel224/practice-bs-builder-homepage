@@ -1,0 +1,25 @@
+{
+  "name": "builder-homepage",
+  "version": "1.0.0",
+  "description": "static webpage using HTML, SCSS, BOOTSTRAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch assets/styles/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitulpatel224/practice-bs-builder-homepage.git"
+  },
+  "author": "mitulpatel224",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitulpatel224/practice-bs-builder-homepage/issues"
+  },
+  "homepage": "https://github.com/mitulpatel224/practice-bs-builder-homepage#readme",
+  "dependencies": {
+    "@popperjs/core": "~2.9.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
