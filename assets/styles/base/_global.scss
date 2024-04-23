@@ -30,3 +30,22 @@ figure {
     color: $secondary;
   }
 }
+
+.hero {
+  .herotitle {
+    font-size: 3rem;
+    @media (max-width: 425px) {
+      font-size: 2.4rem;
+    }
+  }
+  .banner-sm {
+    width: 50%;
+  }
+  .banner-lg {
+    width: 100%;
+  }
+  .happyhome-count {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+}
